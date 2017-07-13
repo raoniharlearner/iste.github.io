@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from istemanipal.com/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jul 2017 19:05:33 GMT -->
+<head>
+<title>ISTE | Manipal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+<link href="css/font-awesome.css" rel="stylesheet"> 
+
+<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+
+<link href='../fonts.googleapis.com/cssaa44.css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='../fonts.googleapis.com/css08bc.css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+</head>
+<body>
+
+	<div class="banner bg-about">
+		<div class="header-top about-header-top">
+			<div class="container banner-drop">
+				<div class="agile-logo">
+					<h1><a href="index-2.html">ISTE<span>Manipal</span></a></h1>
+				</div>
+				<div class="header-right">
+						<nav>
+						  <ul>
+							<li>
+								<a href="index-2.html"><span>Home</span></a>
+							</li>
+							<li>
+								<a href="about.html"><span>About</span></a>
+							</li>
+						
+							<li class="active">
+								<a href="gallery.html"><span>Gallery</span></a>
+							</li>
+							<li>
+									<a href="http://tw.istemanipal.com/"><span>Techweekend'17</span></a>
+							</li>
+							<li>
+								<a href="mail.html"><span>Mail Us</span></a>
+							</li>
+						  </ul>
+						</nav>
+						<div class="menu-icon"><span></span></div>
+				</div>
+				<div class="clearfix"> </div>
+				<script>
+					(function($){
+					  $(".menu-icon").on("click", function(){
+							$(this).toggleClass("open");
+							$(".container").toggleClass("nav-open");
+							$("nav ul li").toggleClass("animate");
+					  });
+					  
+					})(jQuery);
+				</script>
+			</div>
+		</div>
+		<div class="w3ls-heading">
+			<h2>Our Gallery</h2>	
+		</div>
+	</div>
+	
+	<div class="gallery-top">
+		<div class="container">
+			<div class="gallery">	
+				<div class="gallery-bg">
+					<div class="agileits-gallery gallery-bg-text effect-2">
+						<a href="images/a1.jpg" class="big"><img src="images/a1.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo." /></a>
+					</div>
+				</div>
+				<div class="gallery-small gallery-middle">
+					<div class="agileits-gallery gallery-small-text effect-3">
+						<a href="images/a2.jpg"><img src="images/a2.jpg" alt="" title="Donec dictum nisi sit amet ex volutpat interdum."/></a>
+					</div>
+				</div>
+				<div class="gallery-bg">
+					<div class="agileits-gallery gallery-bg-text effect-2">
+						<a href="images/a3.jpg"><img src="images/a3.jpg" alt="" title="Ut dignissim ipsum dolor, in scelerisque neque commodo sit amet."/></a>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+				
+				<div class="gallery-bg">
+					<div class="agileits-gallery gallery-bg-text effect-3">
+						<a href="images/a9.jpg"><img src="images/a9.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo."/></a>
+					</div>
+				</div>
+				<div class="gallery-bg">
+					<div class="agileits-gallery gallery-bg-text effect-2">
+						<a href="images/a7.jpg" class="big"><img src="images/a7.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo." /></a>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+				
+				<div class="gallery-bg">
+					<div class="agileits-gallery gallery-bg-text effect-2">
+						<a href="images/a9.jpg" class="big"><img src="images/a9.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo." /></a>
+					</div>
+				</div>
+				<div class="gallery-small gallery-middle">
+					<div class="agileits-gallery gallery-small-text effect-3">
+					<a href="images/a11.jpg"><img src="images/a11.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo."/></a>
+					
+					</div>
+				</div>
+				
+				<div class="gallery-small gallery-middle">
+					<div class="agileits-gallery gallery-small-text effect-3">
+						<a href="images/a12.jpg"><img src="images/a12.jpg" alt="" title="Nulla molestie nulla et dolor commodo pharetra."/></a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				
+			</div>
+			<script type="text/javascript" src="js/simple-lightbox.js"></script>
+			<script>
+				$(function(){
+					var $gallery = $('.gallery a').simpleLightbox();
+					
+					$gallery.on('show.simplelightbox', function(){
+						console.log('Requested for showing');
+					})
+					.on('shown.simplelightbox', function(){
+						console.log('Shown');
+					})
+					.on('close.simplelightbox', function(){
+						console.log('Requested for closing');
+					})
+					.on('closed.simplelightbox', function(){
+						console.log('Closed');
+					})
+					.on('change.simplelightbox', function(){
+						console.log('Requested for change');
+					})
+					.on('next.simplelightbox', function(){
+						console.log('Requested for next');
+					})
+					.on('prev.simplelightbox', function(){
+						console.log('Requested for prev');
+					})
+					.on('nextImageLoaded.simplelightbox', function(){
+						console.log('Next image loaded');
+					})
+					.on('prevImageLoaded.simplelightbox', function(){
+						console.log('Prev image loaded');
+					})
+					.on('changed.simplelightbox', function(){
+						console.log('Image changed');
+					})
+					.on('nextDone.simplelightbox', function(){
+						console.log('Image changed to next');
+					})
+					.on('prevDone.simplelightbox', function(){
+						console.log('Image changed to prev');
+					})
+					.on('error.simplelightbox', function(e){
+						console.log('No image found, go to the next/prev');
+						console.log(e);
+					});
+				});
+			</script>
+		</div>
+	</div>
+	
+	
+	<div class="footer">
+		<div class="container">
+			<div class="agile-footer-grids">
+				<div class="col-md-3 w3-agile-footer-grid">
+					<h3>About</h3>
+					<p>ISTE Manipal is the only club that has students from various disciplines of engineering in MIT.
+</p>
+				</div>
+				<div class="col-md-3 w3-agile-footer-grid">
+					<h3>Events</h3>
+					<ul>
+						<li>1st Feb  Techweekend</li>
+						<li>2nd Feb  Techweekend</li>
+						<li>3rd Feb  Techweekend</li>
+						<li>4th Feb  Techweekend</li>
+						<li>5th Feb  Techweekend</li>
+						<li>6th Feb  Techweekend</li>
+						
+					</ul>
+				</div>
+				<div class="col-md-3 w3-agile-footer-grid">
+					<h3>Navigation</h3>
+					<ul>
+						<li class="text"><a href="index-2.html">Home</a></li>
+						<li class="text"><a href="about.html">About</a></li>
+						
+						<li class="text"><a href="gallery.html">Gallery</a></li>
+						
+						<li class="text"><a href="mail.html">Contact</a></li>
+					</ul>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<div class="container">
+			<p>© 2017 ISTE Manipal  </p>
+		</div>
+	</div>
+</body>	
+
+<!-- Mirrored from istemanipal.com/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jul 2017 19:10:48 GMT -->
+</html>
